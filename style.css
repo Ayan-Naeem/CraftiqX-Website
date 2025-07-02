@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 100px 0;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+.navlink{
+    display: flex;
+    gap: 20px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: #797979;
+    border-bottom: white solid 1px;
+}
+
+.navlink a:hover{
+    color: #1d2b36;
+    border-bottom: #ff7028 solid 1px;
+}
+
+.navlink a:focus{
+    color: #1d2b36;
+    border-bottom: #ff7028 solid 1px;
+    font-weight: 600;
+}
+
+.navbtn button{
+    padding: 16px 30px;
+    border-radius: 132px;
+    border: #ff7028 solid 2px;
+    background-color: #ff7028;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbtn button:hover{
+    background-color: white;
+    border: #ff7028 solid 2px;
+    color: #1d2b36;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 100px;
+}
+
+.main h1{
+    font-size: 72px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main img{
+    width: 120px;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin: 0 100px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.background{
+    background-color: #1d2b36;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    transform: rotate(-1deg);
+}
+
+.background h2{
+    color: white;
+    font-weight: 500;
+}
+
+.text2{
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text2 h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.text2 p{
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.highlight{
+    color: #ff7028;
+}
+
+#process{
+    background-image: url(./Images/background.png);
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.text3 h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.text3 img{
+    margin-bottom: 50px;
+}
+
+#clientele{
+    background-image: url(./Images/background\ 2.png);
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.reviews{
+    margin: 100px 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: #E2F6FF;
+    width: 300px;
+    padding: 36px;
+    border-radius: 20px;
+}
+
+.reviews h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.position{
+    display: flex;
+    flex-direction: column;
+}
+
+.position label{
+    font-weight: bold;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFE9FF;
+    width: 300px;
+    padding: 36px;
+    border-radius: 20px;
+    scale: 1.1;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF1E2;
+    width: 300px;
+    padding: 36px;
+    border-radius: 20px; 
+}
+
+#contact-section {
+  background: #d5ebfb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  border-radius: 30px;
+  margin: 100px 100px;
+}
+
+.contact-left h1 {
+  font-size: 48px;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.contact-right {
+  flex: 1;
+  padding-left: 60px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.project {
+  width: 100%;
+}
+
+button {
+  padding: 14px 30px;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  align-self: flex-end;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+footer{
+    border-top: solid #1a1a1a 1px;
+    padding: 10px;
+    text-align: center;
+}
